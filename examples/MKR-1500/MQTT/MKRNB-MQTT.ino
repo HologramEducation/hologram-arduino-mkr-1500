@@ -143,7 +143,7 @@ void publishSensorVal() {
 }
 
 void handleCommand(String cmd) {
-  if (cmd == "ON"){
+  if (cmd == "on"){
     digitalWrite(LED, HIGH);
   }else if(cmd == "off"){
     digitalWrite(LED, LOW);
